@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>PS4 Controllers</title>
+</head>
+<body>
+    <section>
+        
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/2560px-Playstation_logo_colour.svg.png" class="logo"></a>
+        </header>
+        
+        <div class="content">
+            <div class="textBox">
+                <h2>Best Controllers<br>For <span>PS4</span></h2>
+                <p>Cheap and Good quality Controllers with customized colors.
+                    Choose your favourites and order now!</p>
+                <a href="mediar.html">Choose other electronics</a>
+            </div>
+                <div class="imgBox">
+                 <div class="imgBox">
+                <img src="images/img4.png" class="Controller">
+                <p style="font-size: 20px; font-weight: bold; margin-top: 10px;">32,50$</p>
+              </div>
+                </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/img4.png" onclick="imgSlider(['images/img4.png','#014e71'])"></li>
+            <li><img src="images/img5.png" onclick="imgSlider(['images/img5.png','black'])"></li>
+            <li><img src="images/img8.png" onclick="imgSlider(['images/img8.png','#808080'])"></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+ function imgSlider(anything){
+        document.querySelector('.Controller').src = anything[0];
+      console.log(anything)
+      document.querySelector('.circle').style.backgroundColor = anything[1]
+    }
+    document.querySelector('.logo').addEventListener('mouseover', function() {
+  this.style.transform = 'rotate(360deg)';
+});
+
+    </script>
+    
+</body>
+</html

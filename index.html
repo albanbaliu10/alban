@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gaming Website</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/2560px-Playstation_logo_colour.svg.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="PC.html" target="_blank">PC accessories</a></li>
+                    <li><a href="mediar.html" target="_blank">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                   
+                </ul>
+            </nav>
+            <img src="https://s3.amazonaws.com/www-inside-design/uploads/2019/03/hamburgerheader-360x360.jpg" class="menu-icon"
+             onclick="togglemenu()">
+        </div>
+<div class="row">
+    <div class="col-1">
+    <h2>PS4 V2<br>Dualshock 4</h2>
+    <h3>Wireless Controller for Playstation 4</h3>
+    <p>(Compatible/Generic)</p>
+    <h4>$32.50</h4>
+    <button type="button" onclick="window.location.href='controllers.html'">Buy now<img src="http://cdn.onlinewebfonts.com/svg/img_418607.png"></button>
+
+    </div>
+
+    <div class="col-2">
+        <img src="https://m.media-amazon.com/images/I/61wIOb-1rRL.jpg" class="controller">
+       
+    </div>
+       </div>
+         </div>
+         <div class="social-links">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png">
+            <img src="https://logos-world.net/wp-content/uploads/2020/06/Snapchat-Logo.jpg">
+            
+          </div>
+
+     <script>
+        var menuList= document.getElementById("menuList");
+        menuList.style.maxHeight="0px";
+        function togglemenu(){
+        if( menuList.style.maxHeight=="0px")
+        {
+            menuList.style.maxHeight="130px";
+        }
+        else
+        {
+            menuList.style.maxHeight="0px";
+
+        }
+    }
+     </script>
+
+</body>
+</html>
