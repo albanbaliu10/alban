@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    background-image: url('images/img30.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+#about {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #218a52;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #218a52;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: #218a52;
+}
+#products ul, #services ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#products li, #services li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+  
+header {
+    color: white;
+    background-color: #218a52;
+}
+header h1 {
+    text-align: center;
+    animation: slideInDown 1s ease-in-out;
+  }
+  
+  @keyframes slideInDown {}from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+    section {
+        max-width: 800px;
+        margin: 0 auto;
+        animation: fadeIn 1s ease-in-out;
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      section ul li:hover {
+        transform: scale(1.1);
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      li {
+        background-color: lightgray;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      li:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      footer {
+        text-align: center;
+        margin-top: 50px;
+      }      
+    .card-img{
+        width: 400px;
+        height: 550px;
+
+      }
+
