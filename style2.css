@@ -89,8 +89,8 @@ text-decoration: none;
 .content .textBox p
 {
     color: #333;
-    font-family: cursive;
-
+    font-family: monospace;
+    font-weight: bold;
 }
 .content .textBox a
 {
