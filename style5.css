@@ -7,33 +7,36 @@ body {
   font-family: Arial, sans-serif;
   background-color: #F0F0F0;
 }
+.ab-h2{
+  color: white;
+}
 
 header {
   background-color: #0088cc;
   padding: 20px;
 }
 
-.img1{
+.ab-img1{
     width: 380px;
     height: 400px;
 }
-.img5{
+.ab-img5{
   width: 450px;
     height: 400px;
 }
-.img2{
+.ab-img2{
     width: 400px;
     height: 450px
 }
-.img3{
+.ab-img3{
     width: 350px;
     height: 330px
 }
-.img4{
+.ab-img4{
     width: 370px;
     height: 250px
 }
-.buy-btn {
+.ab-buy-btn {
     background-color: #0088cc;
     color: white;
     border-radius: 4px;
@@ -42,7 +45,7 @@ header {
     transition: all 0.3s ease-in-out;
   }
   
-  .buy-btn:hover {
+  .ab-buy-btn:hover {
     background-color: #0088cc;
     box-shadow: 0px 0px 10px white;
   }
@@ -137,7 +140,7 @@ header {
       font-size: 40px;
     }
   
-    .products {
+    .ab-products {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
