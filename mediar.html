@@ -1,65 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style5.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Gaming Electronics</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gaming Website</title>
 </head>
 <body>
-  <section class="hero">
-    <h1>Experience the Future of Gaming</h1>
-    <p>Get your hands on the latest gaming electronics and take your gaming experience to the next level.</p>
-  </section>
-  <section class="products">
-    <h2>Our Products</h2>
-    <div class="product-card">
-      <img class="img1" src="images/hds1.png" alt="Gaming Headset">
-      <h3>Gaming Headset</h3>
-      <p>High-quality sound and comfortable design for an immersive gaming experience.</p>
-      <a href="https://gjirafamall.com/search?q=kufje+gaming" class="buy-btn">Buy Now</a>
-    </div>
-    <div class="product-card">
-        <img class="img5" src="images/hd.3.png" alt="Gaming Headset">
-        <h3>Gaming Headset</h3>
-        <p>High-quality sound and comfortable design for an immersive gaming experience.</p>
-        <a href="https://gjirafamall.com/search?q=kufje+gaming" class="buy-btn">Buy Now</a>
-      </div>
+    <div class="container">
+        <div class="navbar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/2560px-Playstation_logo_colour.svg.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="PC.html" target="_blank">PC accessories</a></li>
+                    <li><a href="mediar.html" target="_blank">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                   
+                </ul>
+            </nav>
+            <img src="https://s3.amazonaws.com/www-inside-design/uploads/2019/03/hamburgerheader-360x360.jpg" class="menu-icon"
+             onclick="togglemenu()">
+        </div>
+<div class="row">
+    <div class="col-1">
+    <h2>PS4 V2<br>Dualshock 4</h2>
+    <h3>Wireless Controller for Playstation 4</h3>
+    <p>(Compatible/Generic)</p>
+    <h4>$32.50</h4>
+    <button type="button" onclick="window.location.href='controllers.html'">Buy now<img src="http://cdn.onlinewebfonts.com/svg/img_418607.png"></button>
 
-    <div class="product-card">
-      <img  class="img2" src="images/kb3.png" alt="Gaming Keyboard">
-      <h3>Gaming Keyboard</h3>
-      <p>Customizable RGB lighting and fast response keys for an optimized gaming experience.</p>
-      <a href="https://gjirafamall.com/search?q=tastiera+gaming" class="buy-btn">Buy Now</a>
     </div>
-    <div class="product-card">
-        <img  class="img2" src="images/kb6.png" alt="Gaming Keyboard">
-        <h3>Gaming Keyboard</h3>
-        <p>Customizable RGB lighting and fast response keys for an optimized gaming experience.</p>
-        <a href="https://gjirafamall.com/search?q=tastiera+gaming" class="buy-btn">Buy Now</a>
-      </div>
 
-    <div class="product-card">
-      <img  class="img3" src="images/m2.png" alt="Gaming Mouse">
-      <h3>Gaming Mouse</h3>
-      <p>High precision and customizable buttons for improved gaming accuracy and efficiency.</p>
-      <a href="https://gjirafamall.com/search?q=mouse+gaming" class="buy-btn">Buy Now</a>
+    <div class="col-2">
+        <img src="https://m.media-amazon.com/images/I/61wIOb-1rRL.jpg" class="controller">
+       
     </div>
-    <div class="product-card">
-        <img  class="img4" src="images/m3.png" alt="Gaming Mouse">
-        <h3>Gaming Mouse</h3>
-        <p>High precision and customizable buttons for improved gaming accuracy and efficiency.</p>
-        <a href="https://gjirafamall.com/search?q=mouse+gaming" class="buy-btn">Buy Now</a>
-      </div>
-  </section>
-  <section class="about">
-    <h2>About Us</h2>
-    <p>We're the ultimate destination for gamers seeking the latest and greatest in electronics. Our mission is to elevate your gaming experience to new heights with products that offer unbeatable performance, comfort, and style.</p>
-    <a href="PC.html" class="cta-btn">Discover More</a>
-  </section>
-  <p>&copy; 2023 Gaming Electronics. All rights reserved.</p>
-  </body>
+       </div>
+         </div>
+         <div class="social-links">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png">
+            <img src="https://logos-world.net/wp-content/uploads/2020/06/Snapchat-Logo.jpg">
+            
+          </div>
+
+     <script>
+        var menuList= document.getElementById("menuList");
+        menuList.style.maxHeight="0px";
+        function togglemenu(){
+        if( menuList.style.maxHeight=="0px")
+        {
+            menuList.style.maxHeight="130px";
+        }
+        else
+        {
+            menuList.style.maxHeight="0px";
+
+        }
+    }
+     </script>
+
+</body>
 </html>
- 
