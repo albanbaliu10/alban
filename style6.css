@@ -1,141 +1,82 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    text-align: center;
-    background-image: url('images/img30.jpg');
-background-size: cover;
-background-repeat: no-repeat;
+*{
+  padding: 0;
+  margin: 0;
 }
-#about {
-    text-align: center;
-    margin-top: 40px;
-  }
-  
-  #about h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: white;
-    background-color: #218a52;
-  }
-  
-  #about p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-    color: white;
-    font-weight: bolder;
-    background-color: #218a52;
-  }
-  h1 {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 800;
+.about{
+  width: 100%;
+  height: 100vh;
+  background-color: #161922;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.about .content img{
+  height: auto;
+  width: 500px;
+  max-width: 100%;
+}
+.content{
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.ab-text h1{
+  color: #ffcc74;
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.ab-text h5{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.ab-text p{
+  color: #c0c4d6;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
 
-h2 {
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-    background-color: #218a52;
 }
-#products ul, #services ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+button{
+  background-color: #ffcc74;
+  color: black;
+  border: 2px solid transparent;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
 }
+button:hover{
+  transform: scale(1.2);
+  background-color: transparent;
+  border: 2px solid #ffcc74;
+  color: #ffcc74;
+  transition: .4s;
+  cursor: pointer;
 
-#products li, #services li {
-    background-color: white;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #ccc;
 }
-  
-header {
-    color: white;
-    background-color: #218a52;
-}
-header h1 {
-    text-align: center;
-    animation: slideInDown 1s ease-in-out;
+@media screen and (max-width: 1180px) {
+  .about{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+
   }
-  
-  @keyframes slideInDown {}from {
-      transform: translateY(-100%);
-    }
-    to {
-      transform: translateY(0%);
-    }
-    section {
-        max-width: 800px;
-        margin: 0 auto;
-        animation: fadeIn 1s ease-in-out;
-      }
-      
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-
-      section ul li:hover {
-        transform: scale(1.1);
-      }
-      ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      li {
-        background-color: lightgray;
-        padding: 10px 20px;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        transition: all 0.3s ease-in-out;
-      }
-      
-      li:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-      }
-      
-      footer {
-        text-align: center;
-        margin-top: 50px;
-        color: black;
-      }      
-    .card-img{
-        width: 400px;
-        height: 550px;
-
-      }
-     
-      .buy-btn {
-        background-color: #4CAF50;
-        color: white; 
-        padding: 14px 20px; 
-        border: none;
-        border-radius: 4px;
-        cursor: pointer; 
-        font-size: 16px; 
-        font-weight: bold; 
-        text-decoration: none; 
-    }
-    
-    .buy-btn:hover {
-        background-color: #3e8e41; 
-    }
-    .p1{
-        color: white;
-        background-color: #3e8e41;
-    }
-    
-    
+}
+@media screen and (max-width: 650px){}
+  .about .content img{
+    margin-bottom: 35px;
+  }
+  .ab-text h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+  }
