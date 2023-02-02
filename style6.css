@@ -72,12 +72,16 @@ button:hover{
 
   }
 }
-@media screen and (max-width: 650px){
-  .about .content img{
-    margin-bottom: 35px;
+@media (max-width: 767px) {
+  .product-card {
+    flex-direction: column;
+    text-align: center;
   }
-  .ab-text h1{
-    font-size: 60px;
-    margin-bottom: 25px;
+  .ab-img1, .ab-img2, .ab-img3, .ab-img4, .ab-img5 {
+    width: 100%;
+    margin: auto;
+  }
+  .ab-buy-btn {
+    margin-top: 10px;
   }
 }
