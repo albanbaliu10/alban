@@ -129,9 +129,7 @@ button:hover{
 }
 .col-2 .controller{
    width: 90%;
-
 }
-
 .social-links img{
  height: 25px;
  margin: 30px;
@@ -140,9 +138,8 @@ button:hover{
 .social-links{
     text-align: center;
 }
-
 @media only screen and (max-width:700px) {
-    nav ul{
+    .nav ul{
         width: 100%;
         background: linear-gradient(#ff54a2, #ff575a);
         position: absolute;
@@ -150,15 +147,15 @@ button:hover{
         right: 0;
         z-index: 2;
     }
-    nav ul li{
+    .nav ul li{
         display: block;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    nav ul li a{
+    .nav ul li a{
         color: #fff;
     }
-    .menu-icon{
+    .ab-menu-icon{
         display: block;
     }
     #menuList{
