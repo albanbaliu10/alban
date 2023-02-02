@@ -165,6 +165,7 @@ section{
 }
 .contact-content li{
     margin-bottom: 15px;
+    color: white;
 }
 .contact .content li a{
     display: block;
