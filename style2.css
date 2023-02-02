@@ -1,7 +1,6 @@
 
 
-*
-{
+.albani{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -184,14 +183,14 @@ text-decoration: none;
     header ul li a {
       margin-left: 20px;
     }
-    .content .textBox h2 {
+    .ab-content .ab-textBox h2 {
       font-size: 2em;
     }
-    .content .imgBox {
+    .ab-content .imgBox {
       padding-right: 20px;
       margin-top: 20px;
     }
-    .content .imgBox img {
+    .ab-content .imgBox img {
       max-width: 200px;
     }
   }
@@ -206,12 +205,12 @@ text-decoration: none;
 }
 @media (max-width: 767px) {
     /* Make changes to the styling for smaller screens */
-    .content {
+    .ab-content {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    .textBox {
+    .ab-textBox {
       width: 100%;
       text-align: center;
     }
@@ -229,9 +228,7 @@ text-decoration: none;
       margin: 10px;
     }
   }
-  
-  
-  .content a {
+  .ab-content a {
     animation: button-animation 1s ease-in-out infinite alternate;
   }
   
