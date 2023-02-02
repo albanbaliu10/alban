@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style7.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Moontserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel=
+    "stylesheet"><link href="script.js">
+
+    <title>Media Remotes</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Gaming</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#Shop">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bxs-user-circle'></i></a>
+            <a href="#"><i class='bx bxs-shopping-bag'></i></a>
+
+        </div>
+    </header>
+    <!---shop start-->
+    <section class="shop" id="shop">
+        <div class="container">
+            <div class="box">
+                <img class="img1" src="images/pc6.png">
+                <h4>Gaming Pc</h4>
+                <h5>$2100</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="img1" src="images/hd.3.png">
+                <h4>Gaming Headset</h4>
+                <h5>$75.00</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="img1" src="images/hds1.png">
+                <h4>Gaming Headset</h4>
+                <h5>$75.00</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="img1" src="images/kb3.png">
+                <h4>Gaming Keyboard</h4>
+                <h5>$80.00</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="img1" src="images/kb5.jpg">
+                <h4>Gaming Keyboard</h4>
+                <h5>$75.00</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img class="m5" src="images/m3.png">
+                <h4>Gaming Mouse</h4>
+                <h5>$95.00</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+
+        
+            <div class="box">
+                <img class="img1" src="images/m2.png">
+                <h4>Gaming Mouse</h4>
+                <h5>$65.00</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+          
+            <div class="box">
+                <img class="img4" src="images/img4.png">
+                <h4>Gaming Controller</h4>
+                <h5>$45.00</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!---shop start-->
+<section class="about" id="about">
+    <div class="about-content">
+        <h2>About</h2>
+        <p>U can find different Gaming Electronics here with the best quality.
+            We offer cheap prices and best customer services.<br>
+            Click add to cart if you want to buy.</p>
+    </div>
+</section>
+        <!---contact start-->
+   <section class="contact" id="contact">
+    <div class="main-contact">
+        <div class="contact-container">
+            <li><a href="sShop">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+                </div>
+        <div class="contact-content">
+            <li><a href="#">Shipping & Returning</a></li>
+            <li><a href="#">Store Policy</a></li>
+            <li><a href="#">Payment Methods</a></li>
+        </div>
+        <div class="contact-content">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Tel: 383-049-171-162</a></li>
+        </div>
+        <div class="contact-content">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+        </div>
+        </div class="action">
+        <form>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="submit" name="submit" value="submit" required>
+        </form>
+    </div>
+    </div>
+   </section>
+   <div class="last">
+    <p>Created by Alban Baliu</p>
+   </div>
+
+ <!--custom js link-->
+    <script src="js/script.js"></script>
+    <script>
+        let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
+
+window.onscroll = () => {
+    menu.classList.tremove('bx-x');
+    navbar.classList.remove('active');
+}
+    </script>
+    
+</body>
+</html>
