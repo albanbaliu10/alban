@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #fff;
 }
 .img1{
     width: 450px;
@@ -41,7 +41,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid white;
+    padding: 10px;
   }
+  
   footer {
     display: flex;
     justify-content: space-between;
