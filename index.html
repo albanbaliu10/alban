@@ -2,52 +2,237 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Gaming Website</title>
+    <title>MarketPro - Your Digital Marketing Partner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body id="albani">
-    <div class="ab-container">
-        <div class="ab-navbar">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/2560px-Playstation_logo_colour.svg.png" class="ab-logo">
-            <nav>
-                <ul id="menuList">
-                    <li><a href="PC.html" target="_blank">PC accessories</a></li>
-                    <li><a href="mediaremote.html" target="_blank">Media Remotes</a></li>
-                    <li><a href="others.html">Others</a></li>
-                </ul>
-            </nav>
-            <img src="https://s3.amazonaws.com/www-inside-design/uploads/2019/03/hamburgerheader-360x360.jpg" class="ab-menu-icon" 
-            onclick="togglemenu()">
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>MarketPro</h1>
         </div>
-<div class="row">
-    <div class="col-1">
-    <h2>PS4 V2<br>Dualshock 4</h2>
-    <h3>Wireless Controller for Playstation 4</h3>
-    <p>(Compatible/Generic)</p>
-    <h4>$32.50</h4>
-    <button type="button" onclick="window.location.href='controllers.html'">Buy now<img src="http://cdn.onlinewebfonts.com/svg/img_418607.png"></button>
-    
-    </div>
-    <div class="col-2">
-        <img src="https://m.media-amazon.com/images/I/61wIOb-1rRL.jpg" class="controller">
-    </div>
-       </div>
-         </div>
-     <script>
-        var menuList= document.getElementById("menuList");
-        menuList.style.maxHeight="0px";
-        function togglemenu(){
-        if( menuList.style.maxHeight=="0px")
-        {
-            menuList.style.maxHeight="130px";
-        }
-        else
-        {
-            menuList.style.maxHeight="0px";
-        }
-    }
-     </script>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Digital Presence</h1>
+            <p>We help businesses grow through innovative marketing solutions</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <p class="section-subtitle">Comprehensive solutions for your business growth</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>E-Commerce Solutions</h3>
+                <p>Boost your online sales with our expert e-commerce strategies</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Custom Online Store Development</li>
+                    <li><i class="fas fa-check"></i> Payment Gateway Integration</li>
+                    <li><i class="fas fa-check"></i> Inventory Management</li>
+                    <li><i class="fas fa-check"></i> SEO Optimization</li>
+                </ul>
+                <a href="#contact" class="service-cta">Get Started</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-industry"></i>
+                <h3>Industrial Marketing</h3>
+                <p>Target the right audience in the industrial sector</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> B2B Lead Generation</li>
+                    <li><i class="fas fa-check"></i> Industry-Specific Content</li>
+                    <li><i class="fas fa-check"></i> Trade Show Marketing</li>
+                    <li><i class="fas fa-check"></i> Technical Documentation</li>
+                </ul>
+                <a href="#contact" class="service-cta">Get Started</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hashtag"></i>
+                <h3>Social Media</h3>
+                <p>Engage your audience across all social platforms</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Content Strategy</li>
+                    <li><i class="fas fa-check"></i> Community Management</li>
+                    <li><i class="fas fa-check"></i> Paid Advertising</li>
+                    <li><i class="fas fa-check"></i> Analytics & Reporting</li>
+                </ul>
+                <a href="#contact" class="service-cta">Get Started</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Brand Development</h3>
+                <p>Create a strong and memorable brand identity</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Brand Strategy</li>
+                    <li><i class="fas fa-check"></i> Logo Design</li>
+                    <li><i class="fas fa-check"></i> Brand Guidelines</li>
+                    <li><i class="fas fa-check"></i> Visual Identity</li>
+                </ul>
+                <a href="#contact" class="service-cta">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p class="section-subtitle">Your Trusted Partner in Digital Success</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>We are a team of passionate marketers dedicated to helping businesses succeed in the digital age. With years of experience and a proven track record, we deliver results that matter.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Team Members</span>
+                        </div>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-rocket"></i>
+                            <h4>Fast Results</h4>
+                            <p>Quick implementation and measurable outcomes</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Expert Team</h4>
+                            <p>Dedicated professionals at your service</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Data-Driven</h4>
+                            <p>Strategic decisions based on analytics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-team.jpg" alt="Our Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/ecommerce.jpg" alt="E-commerce Project">
+                <div class="portfolio-overlay">
+                    <h3>E-commerce Success</h3>
+                    <p>200% increase in online sales</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/industrial.jpg" alt="Industrial Project">
+                <div class="portfolio-overlay">
+                    <h3>Industrial Marketing</h3>
+                    <p>B2B lead generation</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/social.jpg" alt="Social Media Project">
+                <div class="portfolio-overlay">
+                    <h3>Social Media Campaign</h3>
+                    <p>1M+ engagement</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/brand.jpg" alt="Brand Project">
+                <div class="portfolio-overlay">
+                    <h3>Brand Development</h3>
+                    <p>Complete brand transformation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Marketing Street, Business City</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@marketpro.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MarketPro</h3>
+                <p>Your trusted partner in digital marketing</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MarketPro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
